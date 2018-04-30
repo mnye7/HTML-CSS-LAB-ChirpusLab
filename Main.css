@@ -164,15 +164,15 @@ header {
 header {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .topnav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 50%;
-  right: 34%;
+  align-items: flex-start;
+  width: 85%;
+  /* right: 50%; */
   top: 22%;
 }
 
@@ -186,8 +186,9 @@ header {
   .paragraph-header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
+    padding-top: 125px;
   }
 
 
